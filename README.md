@@ -17,3 +17,7 @@
 
 ### As a user with limited arm mobility:
 - I want to use the keyboard to navigate as I am unable to use a mouse.
+
+## Accessibility 
+
+![Uploading Screenshot 2024-04-22 at 14.03.45.png…]()
