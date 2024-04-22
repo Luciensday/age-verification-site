@@ -77,8 +77,7 @@ input {
 }
 
 button {
-  width: 10rem;
-  height: 3rem;
+  padding: 0.5rem 2.5rem;
   font-size: var(--text-xl);
   margin-top: 0.75rem;
   border: var(--dark) solid 0.15rem;

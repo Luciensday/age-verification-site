@@ -21,3 +21,7 @@ form.addEventListener("submit", function (event) {
     window.location.href = "unsuccessful.html";
   }
 });
+
+function goBack() {
+  window.history.back();
+}
