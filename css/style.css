@@ -40,12 +40,12 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#ageSection {
-  margin-top: 5rem;
-  margin-left: 2rem;
+section {
+  margin-top: 6rem;
+  margin-left: 3rem;
 }
 
-#ageForm {
+.content-wrapper {
   display: flex;
   flex-direction: column;
   padding: 2rem;
@@ -58,6 +58,7 @@ h1 {
 
 p {
   font-size: var(--text-xl);
+  line-height: 2rem;
 }
 
 label {
