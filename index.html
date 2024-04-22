@@ -11,30 +11,33 @@
     <title>Age verification</title>
   </head>
   <body>
-    <header class="center">
+    <header>
       <a href="index.html">
-        <h1>Bookster</h1>
+        <img alt="turn_2_us_logo" src="images/turn2us_logo.png" id="logo" />
       </a>
     </header>
-
-    <section>
-      <form id="ageForm">
+    <main>
+      <section id="ageSection">
         <h1>Age Verification</h1>
-        <p>
-          Welcome to our age verification page. To ensure that you meet the age
-          requirements for accessing our website,
-        </p>
-        <label for="birthday">please enter your date of birth below.</label>
-        <input
-          type="date"
-          id="birthdayInput"
-          name="birthday"
-          placeholder="Enter your birthday"
-          required
-        />
-        <button aria-label="submit" type="submit" id="submit">Submit</button>
-      </form>
-    </section>
+        <form id="ageForm">
+          <p>
+            Welcome to our age verification page. To ensure that you meet the
+            age requirements for accessing our website,
+          </p>
+          <label for="birthday" id="input-instruction"
+            >please enter your date of birth below.</label
+          >
+          <input
+            type="date"
+            id="birthdayInput"
+            name="birthday"
+            placeholder="Enter your birthday"
+            required
+          />
+          <button aria-label="submit" type="submit" id="submit">Submit</button>
+        </form>
+      </section>
+    </main>
     <script src="javascript/app.js"></script>
   </body>
 </html>
