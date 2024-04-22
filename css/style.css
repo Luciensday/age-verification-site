@@ -1,10 +1,10 @@
 :root {
   /* colour variable */
   --primary: #e74300; /*orange*/
+  --primary-light: #e36734; /*light orange*/
   --dark: #000000;
   --light: FFFFFF;
   --secondary: #d9d9d9; /*light grey*/
-  --tertiary: #696463; /*light pink*/
 
   /* font-size variable */
   --text-sm: 0.875rem;
@@ -15,6 +15,14 @@
   --text-3xl: 1.875rem;
   --text-4xl: 2.25rem;
   --text-5xl: 3rem;
+}
+
+.dark-mode {
+  --primary: #e74300;
+  --primary-light: #e36734;
+  --dark: #ffffff; /* change text color to white in dark mode */
+  --light: #000000; /* change background color to black in dark mode */
+  --secondary: #000000; /*light grey*/
 }
 
 * html {
@@ -32,6 +40,7 @@ header {
 
 #logo {
   width: 7rem;
+  cursor: pointer;
 }
 body {
   background-color: var(--secondary);
@@ -54,16 +63,19 @@ section {
 
 h1 {
   font-size: var(--text-3xl);
+  color: var(--dark);
 }
 
 p {
   font-size: var(--text-xl);
   line-height: 2rem;
+  color: var(--dark);
 }
 
 label {
   font-size: var(--text-xl);
   font-weight: bold;
+  color: var(--dark);
 }
 
 input {
@@ -76,16 +88,27 @@ input {
   padding: 0.75rem 0 0.75rem 0;
 }
 
+.button-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
 button {
   padding: 0.5rem 2.5rem;
   font-size: var(--text-xl);
   margin-top: 0.75rem;
   border: var(--dark) solid 0.15rem;
   background-color: #e74300;
+  cursor: pointer;
+  color: var(--dark);
 }
 
-.button-wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+button:hover {
+  background-color: var(--primary-light);
+}
+
+button:active {
+  background-color: var(--primary);
+  transform: translateY(2px);
 }
