@@ -32,12 +32,12 @@ The accessibility focus on:
 <img width="586" alt="lighthouse" src="https://github.com/Luciensday/age-verification-site/assets/128807685/a4d849c2-bf75-4a03-ad56-3d412b8083bb">
 
 ### Dark mode option
-Dark mode for 
+Dark mode benefits
 - Physical comfort reasons: To reduce eye strain when reading at night or in ambient conditions.
 - Technical reasons: Dark mode saves power due to how the screen nits work
 - Aesthetic reasons: Dark mode as design preference looks sleeker to some
 - Medical reasons: For persons with migraine, light from screen is a trigger and are actually advised to avoid light and sound to reduce the pain
-
-<img width="585" alt="Normal" src="https://github.com/Luciensday/age-verification-site/assets/128807685/dfed92e1-8400-4d12-90e4-5af8d43e61fa"><img width="589" alt="Dark" src="https://github.com/Luciensday/age-verification-site/assets/128807685/d3e36d1b-9b7b-4255-bf32-6480b5843fa7">
+<img width="589" alt="Dark" src="https://github.com/Luciensday/age-verification-site/assets/128807685/d3e36d1b-9b7b-4255-bf32-6480b5843fa7">
+<img width="585" alt="Normal" src="https://github.com/Luciensday/age-verification-site/assets/128807685/dfed92e1-8400-4d12-90e4-5af8d43e61fa">
 
 
