@@ -17,7 +17,7 @@
 
 ### As a visually impaired user:
 - I want to have a screen-reader friendly webpage, where I can easily acquire the information of the content and navigate efficiently with the semantic HTML structure of the website.
-- I want to be able to use the keyboard to navigate the site.
+
 
 ### As a user with limited arm mobility:
 - I want to use the keyboard to navigate as I am unable to use a mouse.
