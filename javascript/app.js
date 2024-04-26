@@ -6,7 +6,6 @@ if (form) {
 
   form.addEventListener("submit", function (event) {
     event.preventDefault();
-
     const birthday = new Date(document.getElementById("birthdayInput").value);
     const today = new Date();
     const age = today.getFullYear() - birthday.getFullYear();
